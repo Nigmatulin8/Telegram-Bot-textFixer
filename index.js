@@ -1,7 +1,7 @@
 const TelegramBot = require('./TelegramBot');
 const findInFiles = require('find-in-files');
 
-const token = '488821463:AAG13Gnk7yyD6D1xzk3BFcGbu2VaG_MCumc';
+const token = 'TOKEN';
 const bot = new TelegramBot(token);
 
 const eq = [
