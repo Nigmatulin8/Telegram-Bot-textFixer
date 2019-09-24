@@ -1,8 +1,7 @@
 const request = require('request-promise');
 const EventEmitter = require('events');
 
-const token = '488821463:AAG13Gnk7yyD6D1xzk3BFcGbu2VaG_MCumc';
-//const proxy = '41821765:7g12X0ca@deimos.public.opennetwork.cc:1090';
+const token = 'TOKEN';
 
 class TGBot extends EventEmitter {
 	constructor (token) {
